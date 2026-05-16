@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Toko Online Sederhana</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div>
+        <h1>Toko Online</h1>
+        <p>Belanja mudah, cepat, dan aman.</p>
+      </div>
+      <button class="cart-toggle" id="cartToggle">Keranjang (0)</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div>
+        <p class="eyebrow">Promo Online</p>
+        <h2>Temukan produk pilihan untuk kebutuhan sehari-hari.</h2>
+        <p>Hemat lebih banyak dengan penawaran menarik dan layanan pengiriman cepat.</p>
+        <div class="hero-actions">
+          <a href="#produk" class="button">Lihat Produk</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="hero-card">Belanja Sekarang</div>
+      </div>
+    </section>
+
+    <section class="container products-section" id="produk">
+      <div class="section-header">
+        <h2>Produk Terlaris</h2>
+        <p>Pilih produk yang kamu butuhkan dan tambahkan ke keranjang.</p>
+      </div>
+      <div class="product-grid" id="productGrid"></div>
+    </section>
+  </main>
+
+  <aside class="cart-panel hidden" id="cartPanel">
+    <div class="cart-header">
+      <h3>Keranjang Belanja</h3>
+      <button class="close-cart" id="closeCart">×</button>
+    </div>
+    <div id="cartItems" class="cart-items"></div>
+    <div class="cart-footer">
+      <div class="cart-summary">
+        <span>Total</span>
+        <strong id="cartTotal">Rp0</strong>
+      </div>
+      <button class="button button-primary" id="checkoutButton">Bayar Sekarang</button>
+    </div>
+  </aside>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 Toko Online Sederhana. Semua hak dilindungi.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
