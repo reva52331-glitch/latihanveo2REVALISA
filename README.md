@@ -1,0 +1,1 @@
+# latihanveo2REVALISA
